@@ -1,0 +1,37 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__caption {
+    font-weight: normal;
+    text-align: right;
+    margin-bottom: 4px;
+}
+
+.table__header {
+    font-weight: normal;
+    box-shadow: inset 40px 0px 42px 0px rgba(26, 132, 30, 20%);
+}
+
+.table__cell {
+    border: 1px solid hsl(120, 100%, 20%);
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table__row:hover {
+    background-color: rgba(26, 132, 30, 20%);
+}
+
+.table__link {
+    text-decoration: none;
+    color: hsl(82, 39%, 20%);
+}
+
+.table__link:hover {
+    color: rgb(249, 249, 249);
+    box-shadow: inset 4px 3px 18px 8px darkolivegreen;
+    border-radius: 13px;
+    padding: 4px;
+}

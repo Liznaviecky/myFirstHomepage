@@ -1,0 +1,40 @@
+.navigation {
+    line-height: 1.5;
+    font-size: larger;
+    box-shadow: inset 4px 3px 18px 3px darkolivegreen;
+    border-radius: 13px;
+    max-width: 657px;
+    padding: 4px 0px;
+}
+
+.navigation__listItem {
+    list-style: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: hsl(82, 39%, 20%);
+}
+
+.navigation__link:hover {
+    color: rgb(249, 249, 249);
+    box-shadow: inset 4px 3px 18px 8px darkolivegreen;
+    border-radius: 13px;
+    padding: 4px;
+}
+
+.navigation__span {
+    font-size: 13px;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: hsl(82, 39%, 20%);
+}
+
+.footer__link:hover {
+    color: rgb(249, 249, 249);
+    box-shadow: inset 4px 3px 18px 8px darkolivegreen;
+    border-radius: 13px;
+    padding: 4px;
+}

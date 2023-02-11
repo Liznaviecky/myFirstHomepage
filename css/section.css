@@ -1,0 +1,56 @@
+.section {
+    max-width: 700px;
+    line-height: 1.5;
+    margin: auto;
+}
+
+.section__image {
+    border-radius: 122px;
+    object-fit: contain;
+}
+
+.section__header {
+    padding-top: 13px;
+}
+
+.section__button {
+    background-color: hsl(0deg 0% 98% / 50%);
+    border: 1px solid hsl(180, 100%, 97%)
+}
+
+.section__button:hover {
+    border-radius: 13px;
+    box-shadow: 4px 4px 8px 9px hsl(0deg 0% 100%);
+    border: 1px dashed darkseagreen;
+    background: #587b30a8;
+    color: azure;
+}
+
+.section__button--backgroundSwitch {
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 96%);
+}
+
+.section__list {
+    font-size: medium;
+    border: 2px;
+    border-style: solid;
+    border-color: hsla(120, 100%, 20%, 0.19);
+    border-radius: 13px;
+    padding: 6px;
+    padding-left: 13px;
+    max-width: 265px;
+    box-shadow: inset 20px 0px 53px -1px rgba(101, 170, 71, 0.58);
+    margin: 20px;
+    list-style: none;
+}
+
+.section__storyFragment {
+    max-width: 700px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.section__container {
+    overflow-x: auto;
+}

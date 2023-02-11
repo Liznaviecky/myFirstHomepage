@@ -1,0 +1,19 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid azure;
+    box-shadow: inset 3px 3px 20px 2px darkseagreen;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: hsl(82, 39%, 20%);
+}
+
+.footer__link:hover {
+    color: rgb(249, 249, 249);
+    box-shadow: inset 4px 3px 18px 8px darkolivegreen;
+    border-radius: 13px;
+    padding: 4px;
+}

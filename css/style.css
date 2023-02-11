@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+.body {
+    color: hsl(82, 39%, 20%);
+    background-color: hsl(56, 38%, 90%);
+    box-shadow: inset 0px 0px 30px 0px rgba(104, 79, 17, 0.63);
+    padding: 12px;
+    margin: 0px;
+}
