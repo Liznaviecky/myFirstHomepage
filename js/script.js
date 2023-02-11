@@ -1,4 +1,4 @@
-console.log("Hejka. Ten kod jest już w repozytorium Git");
+console.log("Hejka. Ten kod jest już w repozytorium Git.");
 
 let section__button = document.querySelector(".section__button");
 let body = document.querySelector(".body");
