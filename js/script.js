@@ -12,11 +12,11 @@ section__button.addEventListener("click", () => {
 });
 
 
-let section__portrait = document.querySelector(".section__portrait");
+let section__image = document.querySelector(".section__image");
 let section__portraitRemove = document.querySelector(".section__portraitRemove");
 
 section__portraitRemove.addEventListener("click", () => {
-    section__portrait.remove();
+    section__image.remove();
     section__portraitRemove.remove();
 });
 
