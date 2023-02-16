@@ -1,4 +1,4 @@
-# Daniel Krawczyk - myFirstHomepage
+# Daniel Krawczyk - my first project
 ![](pictures/runmageddon.jpg)
 ## Work in progress 
 https://liznaviecky.github.io/myFirstHomepage/
