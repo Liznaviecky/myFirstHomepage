@@ -45,10 +45,17 @@
     list-style: none;
 }
 
+.section__history {
+    text-align: justify;
+    text-indent: 6%
+}
+
 .section__storyFragment {
     max-width: 700px;
     line-height: 1.5;
     font-style: italic;
+    text-align: justify;
+    text-indent: 6%;
 }
 
 .section__container {
