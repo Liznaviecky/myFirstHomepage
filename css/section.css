@@ -11,6 +11,7 @@
 
 .section__header {
     padding-top: 13px;
+    font-weight: normal;
 }
 
 .section__button {
