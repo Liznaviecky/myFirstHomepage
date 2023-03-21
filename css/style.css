@@ -1,15 +1,12 @@
 html {
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 *,
 ::after,
 ::before {
     box-sizing: inherit;
-}
-
-html {
-    font-family: 'Lato', sans-serif;
 }
 
 .body {
