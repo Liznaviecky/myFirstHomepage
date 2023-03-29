@@ -27,7 +27,7 @@
     color: azure;
 }
 
-.section__button--backgroundSwitch {
+.section__button--toggleBackground {
     color: hsl(0, 0%, 0%);
     background-color: hsl(0, 0%, 96%);
 }
