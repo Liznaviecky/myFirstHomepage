@@ -20,13 +20,22 @@
         portraitButton.remove();
     };
 
-    const init = () => {
-        const backgroundButton = document.querySelector(".js-button");
-        const portraitButton = document.querySelector(".js-portraitRemove");
+    const fragmentRemove = () => {
+        const fragmentButton = document.querySelector(".js-fragmentRemove");
+        const storyFragment = document.querySelector(".js-storyFragment");
 
+        storyFragment.remove();
+        fragmentButton.remove();
+    };
+
+    const init = () => {
+        const backgroundButton = document.querySelector(".js-backgroundButton");
+        const portraitButton = document.querySelector(".js-portraitRemove");
+        const fragmentButton = document.querySelector(".js-fragmentRemove");
+       
         backgroundButton.addEventListener("click", toggleBackground);
         portraitButton.addEventListener("click", portraitRemove);
-
+        fragmentButton.addEventListener("click", fragmentRemove);
         welcome();
     };
 
@@ -35,13 +44,4 @@
 
 
 
-
-
-    let section__fragmentRemove = document.querySelector(".section__button--fragmentRemove");
-    let section__storyFragment = document.querySelector(".section__storyFragment");
-
-    section__fragmentRemove.addEventListener("click", () => {
-        section__storyFragment.remove();
-        section__fragmentRemove.remove();
-    });
 };
