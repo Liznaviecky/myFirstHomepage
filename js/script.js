@@ -3,6 +3,9 @@
         console.log("Hejka. Ten kod jest już w repozytorium Git.");
     };
 
+    const portraitButton = document.querySelector(".js-portraitRemove");
+    const fragmentButton = document.querySelector(".js-fragmentRemove");
+
     const toggleBackground = () => {
         const body = document.querySelector(".js-body");
         const toggleText = document.querySelector(".js-span");
@@ -14,14 +17,14 @@
 
     const portraitRemove = () => {
         const portrait = document.querySelector(".js-portrait");
-        const portraitButton = document.querySelector(".js-portraitRemove");
+        
 
         portrait.remove();
         portraitButton.remove();
     };
 
     const fragmentRemove = () => {
-        const fragmentButton = document.querySelector(".js-fragmentRemove");
+        
         const storyFragment = document.querySelector(".js-storyFragment");
 
         storyFragment.remove();
@@ -30,9 +33,7 @@
 
     const init = () => {
         const backgroundButton = document.querySelector(".js-backgroundButton");
-        const portraitButton = document.querySelector(".js-portraitRemove");
-        const fragmentButton = document.querySelector(".js-fragmentRemove");
-       
+        
         backgroundButton.addEventListener("click", toggleBackground);
         portraitButton.addEventListener("click", portraitRemove);
         fragmentButton.addEventListener("click", fragmentRemove);
@@ -40,8 +41,4 @@
     };
 
     init();
-
-
-
-
 };
