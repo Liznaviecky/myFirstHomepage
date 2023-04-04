@@ -6,4 +6,4 @@ https://liznaviecky.github.io/myFirstHomepage/
 Few words and pictures about me and my passions. I hope you will like it :)
 Have a good day and wonderfull night :) 
 <h3> Used technologies </h3>
-ES6+, BEM
+ES6+ features, BEM
