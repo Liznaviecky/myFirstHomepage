@@ -1,5 +1,5 @@
 # Daniel Krawczyk - my first project
-<img src="pictures/runmageddon.jpg" width="400" height="400">
+<img src="pictures/runmageddon.jpg" width="40%" height="40%">
 <h2> Work in progress </h2>
 https://liznaviecky.github.io/myFirstHomepage/
 <h3> Descritpion </h3>
