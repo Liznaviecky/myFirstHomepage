@@ -1,9 +1,9 @@
 # Daniel Krawczyk - my first project
-![](pictures/runmageddon.jpg)
-## Work in progress 
+<img src="pictures/runmageddon.jpg" width="400" height="400">
+<h2> Work in progress </h2>
 https://liznaviecky.github.io/myFirstHomepage/
-### Descritpion
+<h3> Descritpion </h3>
 Few words and pictures about me and my passions. I hope you will like it :)
 Have a good day and wonderfull night :) 
-### Used technologies
+<h3> Used technologies </h3>
 ES6+, BEM
