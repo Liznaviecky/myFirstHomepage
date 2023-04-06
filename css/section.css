@@ -27,11 +27,6 @@
     color: azure;
 }
 
-.section__button--toggleBackground {
-    color: hsl(0, 0%, 0%);
-    background-color: hsl(0, 0%, 96%);
-}
-
 .section__list {
     font-size: medium;
     border: 2px;

@@ -10,21 +10,19 @@
         const body = document.querySelector(".js-body");
         const toggleText = document.querySelector(".js-span");
 
-        body.classList.toggle("section__button--toggleBackground");
-        toggleText.innerText = body.classList.contains("section__button--toggleBackground")
+        body.classList.toggle("body--light");
+        toggleText.innerText = body.classList.contains("body--light")
             ? "ciemniejszy" : "jaśniejszy";
     };
 
     const portraitRemove = () => {
         const portrait = document.querySelector(".js-portrait");
-        
 
         portrait.remove();
         portraitButton.remove();
     };
 
     const fragmentRemove = () => {
-        
         const storyFragment = document.querySelector(".js-storyFragment");
 
         storyFragment.remove();
@@ -33,10 +31,11 @@
 
     const init = () => {
         const backgroundButton = document.querySelector(".js-backgroundButton");
-        
+
         backgroundButton.addEventListener("click", toggleBackground);
         portraitButton.addEventListener("click", portraitRemove);
         fragmentButton.addEventListener("click", fragmentRemove);
+
         welcome();
     };
 

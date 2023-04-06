@@ -16,3 +16,8 @@ html {
     padding: 12px;
     margin: 0px;
 }
+
+.body--light {
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 96%);
+}
